@@ -28,7 +28,7 @@ npm install
 # Run development server
 npm run dev
 # Open in browser
-http://localhost:5173
+https://daily-deen-app-git-release-10-newhorizons123s-projects.vercel.app/
 🏆 Hackathon Submission
 Event: Quran Foundation Hackathon 2026
 Category: Cross-platform Mobile Application
