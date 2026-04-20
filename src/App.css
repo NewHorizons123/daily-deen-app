@@ -1,0 +1,39 @@
+.app-container {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--color-bg);
+  box-shadow: 0 0 20px rgba(0,0,0,0.05); /* Just for desktop preview to see the mobile bounds */
+}
+
+.main-content {
+  padding-bottom: 90px; /* Space for bottom nav */
+}
+
+/* Page Header shared across pages */
+.page-header {
+  padding: 24px 20px 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+.header-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: var(--color-surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

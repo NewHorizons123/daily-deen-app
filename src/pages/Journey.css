@@ -1,0 +1,161 @@
+.journey-content {
+  padding: 0 20px;
+}
+
+.sanctuary-header {
+  margin-top: 16px;
+}
+
+.sanctuary-header h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  color: var(--color-primary);
+  margin: 8px 0;
+}
+
+/* Growth Map Cards */
+.growth-hero-card {
+  background-color: #F8F5EF;
+  border-radius: var(--radius-lg);
+  padding: 32px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.hero-circle {
+  width: 140px;
+  height: 140px;
+  background-color: #EFEBE3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.hero-icon {
+  font-size: 64px;
+  color: var(--color-primary);
+}
+
+.badge-top-left {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 36px;
+  height: 36px;
+  background-color: #F5DCA8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #A67C00;
+}
+
+.badge-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  background-color: #BDE4E0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.stat-card {
+  padding: 20px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.stat-card.light {
+  background-color: #EAE6DF;
+}
+
+.stat-card.dark {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.stat-value {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Reflection Section */
+.reflection-card {
+  background-color: white;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-soft);
+  position: relative;
+}
+
+.reflection-card::before {
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: 90px;
+  width: 40px;
+  height: 2px;
+  background-color: #F5DCA8;
+}
+
+.reflection-input {
+  background: transparent;
+  border: none;
+  resize: none;
+  outline: none;
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--color-text-main);
+}
+.reflection-input::placeholder {
+  color: #C4C9C8;
+}
+
+/* Echoes of Insight */
+.echo-card {
+  background-color: #F8F5EF;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.quote-mark {
+  color: #A88647;
+  font-family: var(--font-heading);
+  font-size: 48px;
+  line-height: 1;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  opacity: 0.5;
+}
+
+.echo-text {
+  margin-top: 24px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.5;
+}

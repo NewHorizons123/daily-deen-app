@@ -1,0 +1,115 @@
+.community-content {
+  padding: 0 20px;
+}
+
+.community-header {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.community-header h2 {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  line-height: 1.2;
+  color: var(--color-primary);
+  margin: 8px 0;
+}
+
+.share-cta-card {
+  background: linear-gradient(135deg, #F9F5EC 0%, #F1EAE0 100%);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(184, 150, 91, 0.2);
+}
+
+.community-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-card {
+  background-color: white;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  border: 1px solid rgba(226, 219, 209, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #EFEBE3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+}
+
+.post-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-main);
+  margin-bottom: 20px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px dashed rgba(226, 219, 209, 0.6);
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.action-btn.unliked {
+  color: var(--color-text-muted);
+}
+
+.action-btn.liked {
+  color: var(--color-accent);
+}
+
+.action-btn.liked svg {
+  fill: var(--color-accent);
+}
+
+.animate-pulse-quick {
+  animation: pulseQuick 0.3s ease-in-out;
+}
+
+@keyframes pulseQuick {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
